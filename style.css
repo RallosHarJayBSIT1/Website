@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to top, maroon, black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1900px;
+}
+
+.image-item {
+    background-color: linear-gradient(to bottom, black, red);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgb(59, 23, 100)
+    margin: 10px;
+    padding: 20px;
+}
+.image-item img {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 3px 15px rgba(167, 46, 76, 0.6);
+    border: black gray;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.header{
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header h1 {
+    font-family: 'Mr Dafoe', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-style: italic;
+    text-shadow: linear-gradient(to bottom, black, red);
+}
+.definition-text-item{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: inherit;
+    
+}
+.definition-text-item p{
+    border: 2px black solid;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: grey;
+}
+.text-font{
+    font-family: 'Homemade Apple', sans-serif;
+}   
+p{
+    text-align: center;
+    font-size: 21px;
+}
+
+.footer-next{
+   
+
+}
